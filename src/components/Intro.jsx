@@ -1,0 +1,15 @@
+export function Intro() {
+  return (
+    <section className="flex flex-col text-center p-5 my-5 w-10/12 bg-yellow-100 rounded-full">
+      <p className="text-lg">
+        Hello, my name is Riley Marcum. Thank you for spending the time to take
+        a look at my projects!
+      </p>
+      <p className="text-lg">
+        Below are a handful of the projects I've worked on utilizing various
+        software development skills and technologies I've learned over the
+        years.
+      </p>
+    </section>
+  );
+}
