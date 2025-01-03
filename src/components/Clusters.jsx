@@ -1,3 +1,5 @@
+import { Cluster } from "./Cluster";
+
 export function Clusters() {
-  return <></>;
+  return <Cluster></Cluster>;
 }
