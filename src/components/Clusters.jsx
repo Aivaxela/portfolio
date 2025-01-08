@@ -8,17 +8,17 @@ import bb3 from "../assets/bb_3.png";
 import dc1 from "../assets/dc_1.png";
 import dc2 from "../assets/dc_2.png";
 import dc3 from "../assets/dc_3.png";
-import jsIcon from "../assets/skill-icons/js.svg";
-import reactIcon from "../assets/skill-icons/react.svg";
-import tsIcon from "../assets/skill-icons/ts.svg";
-import mongoIcon from "../assets/skill-icons/mongo.svg";
-import expressIcon from "../assets/skill-icons/express.svg";
-import webpackIcon from "../assets/skill-icons/webpack.svg";
-import csIcon from "../assets/skill-icons/cs.svg";
-import gcpIcon from "../assets/skill-icons/gcp.svg";
-import godotIcon from "../assets/skill-icons/godot.svg";
-import graphqlIcon from "../assets/skill-icons/graphql.svg";
-import tailwindIcon from "../assets/skill-icons/tailwind.svg";
+import js from "../assets/skill-icons/js.svg";
+import react from "../assets/skill-icons/react.svg";
+import ts from "../assets/skill-icons/ts.svg";
+import mongo from "../assets/skill-icons/mongo.svg";
+import express from "../assets/skill-icons/express.svg";
+import webpack from "../assets/skill-icons/webpack.svg";
+import cs from "../assets/skill-icons/cs.svg";
+import gcp from "../assets/skill-icons/gcp.svg";
+import godot from "../assets/skill-icons/godot.svg";
+import graphql from "../assets/skill-icons/graphql.svg";
+import tailwind from "../assets/skill-icons/tailwind.svg";
 
 export function Clusters() {
   return (
@@ -30,7 +30,7 @@ export function Clusters() {
         imgSecondary={dc2}
         imgTertiary={dc3}
         link={"https://github.com/jahorwitz/drops"}
-        skills={[reactIcon, tsIcon, tailwindIcon, graphqlIcon]}
+        skills={[react, ts, tailwind, graphql]}
       ></Cluster>
       <Cluster
         name="NewsExplorer"
@@ -39,7 +39,7 @@ export function Clusters() {
         imgSecondary={ne2}
         imgTertiary={ne3}
         link={"https://github.com/Aivaxela/news_explorer_frontend"}
-        skills={[reactIcon, jsIcon, expressIcon, gcpIcon]}
+        skills={[react, js, express, mongo]}
       ></Cluster>
       <Cluster
         name="Beach Bandits"
@@ -48,7 +48,7 @@ export function Clusters() {
         imgSecondary={bb2}
         imgTertiary={bb3}
         link={"https://github.com/Aivaxela/beach-bandits"}
-        skills={[jsIcon, webpackIcon]}
+        skills={[js, webpack]}
       ></Cluster>
     </div>
   );

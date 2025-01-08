@@ -1,6 +1,6 @@
 export function Intro() {
   return (
-    <section className="flex flex-col text-center p-5 my-5 w-10/12 bg-gradient-to-b from-yellow-200 to-yellow-100 rounded-3xl">
+    <section className="flex flex-col text-center p-5 my-5 w-10/12 bg-gradient-to-b from-blue-200 to-blue-100 rounded-3xl">
       <p className="text-lg">
         Hello, my name is Riley Marcum. Thank you for spending the time to take
         a look at my projects!
