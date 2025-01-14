@@ -6,6 +6,7 @@ export function Cluster({
   imgSecondary,
   imgTertiary,
   skills,
+  repoLink,
 }) {
   const commonImageAttributes =
     "rounded-lg border-4 border-gray-700 shadow-2xl duration-500";
@@ -51,6 +52,14 @@ export function Cluster({
             />
           ))}
         </div>
+        <a
+          className="text-gray-500 text-sm pt-1 hover:text-pink-700 font-semibold duration-300"
+          href={repoLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {`${repoLink ? "View on GitHub" : ""}`}
+        </a>
       </div>
     </div>
   );

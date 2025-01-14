@@ -38,8 +38,9 @@ export function Clusters() {
         imgPrimary={ne1}
         imgSecondary={ne2}
         imgTertiary={ne3}
-        link={"https://github.com/Aivaxela/news_explorer_frontend"}
+        link={"https://yournewsexplorer.crabdance.com/"}
         skills={[react, js, express, mongo]}
+        repoLink={"https://github.com/Aivaxela/news_explorer_frontend"}
       ></Cluster>
       <Cluster
         name="Beach Bandits"
@@ -47,8 +48,9 @@ export function Clusters() {
         imgPrimary={bb1}
         imgSecondary={bb2}
         imgTertiary={bb3}
-        link={"https://github.com/Aivaxela/beach-bandits"}
+        link={"https://aivaxela.github.io/beach-bandits/"}
         skills={[js, webpack]}
+        repoLink={"https://github.com/Aivaxela/beach-bandits"}
       ></Cluster>
     </div>
   );
