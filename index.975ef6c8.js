@@ -2962,7 +2962,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, 
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./index.css":"irmnC","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/App":"bCxdS"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/App":"bCxdS","./index.css":"irmnC","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -18557,7 +18557,328 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"21dqq"}],"irmnC":[function() {},{}],"km3Ru":[function(require,module,exports,__globalThis) {
+},{"6f0162e9ab224cd4":"21dqq"}],"bCxdS":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$475a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$475a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "App", ()=>App);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _clusters = require("./Clusters");
+var _header = require("./Header");
+var _intro = require("./Intro");
+function App() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "flex flex-col items-center mx-auto max-w-[1440px] h-fit bg-gray-100",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _header.Header), {}, void 0, false, {
+                fileName: "src/components/App.jsx",
+                lineNumber: 8,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _intro.Intro), {}, void 0, false, {
+                fileName: "src/components/App.jsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _clusters.Clusters), {}, void 0, false, {
+                fileName: "src/components/App.jsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/App.jsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, this);
+}
+_c = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  $parcel$ReactRefreshHelpers$475a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","./Clusters":"7EA1y","./Header":"knC38","./Intro":"bAzHm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7EA1y":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$6cf1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6cf1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Clusters", ()=>Clusters);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _cluster = require("./Cluster");
+var _ne1Png = require("../assets/ne_1.png");
+var _ne1PngDefault = parcelHelpers.interopDefault(_ne1Png);
+var _ne2Png = require("../assets/ne_2.png");
+var _ne2PngDefault = parcelHelpers.interopDefault(_ne2Png);
+var _ne3Png = require("../assets/ne_3.png");
+var _ne3PngDefault = parcelHelpers.interopDefault(_ne3Png);
+var _bb1Png = require("../assets/bb_1.png");
+var _bb1PngDefault = parcelHelpers.interopDefault(_bb1Png);
+var _bb2Png = require("../assets/bb_2.png");
+var _bb2PngDefault = parcelHelpers.interopDefault(_bb2Png);
+var _bb3Png = require("../assets/bb_3.png");
+var _bb3PngDefault = parcelHelpers.interopDefault(_bb3Png);
+var _dc1Png = require("../assets/dc_1.png");
+var _dc1PngDefault = parcelHelpers.interopDefault(_dc1Png);
+var _dc2Png = require("../assets/dc_2.png");
+var _dc2PngDefault = parcelHelpers.interopDefault(_dc2Png);
+var _dc3Png = require("../assets/dc_3.png");
+var _dc3PngDefault = parcelHelpers.interopDefault(_dc3Png);
+var _jsSvg = require("../assets/skill-icons/js.svg");
+var _jsSvgDefault = parcelHelpers.interopDefault(_jsSvg);
+var _reactSvg = require("../assets/skill-icons/react.svg");
+var _reactSvgDefault = parcelHelpers.interopDefault(_reactSvg);
+var _tsSvg = require("../assets/skill-icons/ts.svg");
+var _tsSvgDefault = parcelHelpers.interopDefault(_tsSvg);
+var _mongoSvg = require("../assets/skill-icons/mongo.svg");
+var _mongoSvgDefault = parcelHelpers.interopDefault(_mongoSvg);
+var _expressSvg = require("../assets/skill-icons/express.svg");
+var _expressSvgDefault = parcelHelpers.interopDefault(_expressSvg);
+var _webpackSvg = require("../assets/skill-icons/webpack.svg");
+var _webpackSvgDefault = parcelHelpers.interopDefault(_webpackSvg);
+var _csSvg = require("../assets/skill-icons/cs.svg");
+var _csSvgDefault = parcelHelpers.interopDefault(_csSvg);
+var _gcpSvg = require("../assets/skill-icons/gcp.svg");
+var _gcpSvgDefault = parcelHelpers.interopDefault(_gcpSvg);
+var _godotSvg = require("../assets/skill-icons/godot.svg");
+var _godotSvgDefault = parcelHelpers.interopDefault(_godotSvg);
+var _graphqlSvg = require("../assets/skill-icons/graphql.svg");
+var _graphqlSvgDefault = parcelHelpers.interopDefault(_graphqlSvg);
+var _tailwindSvg = require("../assets/skill-icons/tailwind.svg");
+var _tailwindSvgDefault = parcelHelpers.interopDefault(_tailwindSvg);
+function Clusters() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cluster.Cluster), {
+                name: "Drops",
+                description: "Drops is an app created with React that allows user with diabetes to track various health metrics and set reminders for medication.",
+                imgPrimary: (0, _dc1PngDefault.default),
+                imgSecondary: (0, _dc2PngDefault.default),
+                imgTertiary: (0, _dc3PngDefault.default),
+                link: "https://github.com/jahorwitz/drops",
+                skills: [
+                    (0, _reactSvgDefault.default),
+                    (0, _tsSvgDefault.default),
+                    (0, _tailwindSvgDefault.default),
+                    (0, _graphqlSvgDefault.default)
+                ]
+            }, void 0, false, {
+                fileName: "src/components/Clusters.jsx",
+                lineNumber: 26,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cluster.Cluster), {
+                name: "NewsExplorer",
+                description: "A project created with React and Vite that allows visitors to search for news articles and save them to their personal profile.",
+                imgPrimary: (0, _ne1PngDefault.default),
+                imgSecondary: (0, _ne2PngDefault.default),
+                imgTertiary: (0, _ne3PngDefault.default),
+                link: "https://yournewsexplorer.crabdance.com/",
+                skills: [
+                    (0, _reactSvgDefault.default),
+                    (0, _jsSvgDefault.default),
+                    (0, _expressSvgDefault.default),
+                    (0, _mongoSvgDefault.default)
+                ],
+                repoLink: "https://github.com/Aivaxela/news_explorer_frontend"
+            }, void 0, false, {
+                fileName: "src/components/Clusters.jsx",
+                lineNumber: 35,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cluster.Cluster), {
+                name: "Beach Bandits",
+                description: "Beach Bandits is a tool that allows you to create an optimal route between selected beaches in Florida. This project was created in 2 weeks for the June 2024 TripleTen Code Jam.",
+                imgPrimary: (0, _bb1PngDefault.default),
+                imgSecondary: (0, _bb2PngDefault.default),
+                imgTertiary: (0, _bb3PngDefault.default),
+                link: "https://aivaxela.github.io/beach-bandits/",
+                skills: [
+                    (0, _jsSvgDefault.default),
+                    (0, _webpackSvgDefault.default)
+                ],
+                repoLink: "https://github.com/Aivaxela/beach-bandits"
+            }, void 0, false, {
+                fileName: "src/components/Clusters.jsx",
+                lineNumber: 45,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Clusters.jsx",
+        lineNumber: 25,
+        columnNumber: 5
+    }, this);
+}
+_c = Clusters;
+var _c;
+$RefreshReg$(_c, "Clusters");
+
+  $parcel$ReactRefreshHelpers$6cf1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","./Cluster":"gSR7m","../assets/ne_1.png":"dR0UC","../assets/ne_2.png":"kbLK0","../assets/ne_3.png":"3bvQA","../assets/bb_1.png":"eWOqG","../assets/bb_2.png":"7H66c","../assets/bb_3.png":"bDi1D","../assets/dc_1.png":"1DBBW","../assets/dc_2.png":"61mOh","../assets/dc_3.png":"8Ji2n","../assets/skill-icons/js.svg":"58JVJ","../assets/skill-icons/react.svg":"cIkZJ","../assets/skill-icons/ts.svg":"6uLk5","../assets/skill-icons/mongo.svg":"cpuly","../assets/skill-icons/express.svg":"7svLS","../assets/skill-icons/webpack.svg":"6cSya","../assets/skill-icons/cs.svg":"kBGJj","../assets/skill-icons/gcp.svg":"7Ebpr","../assets/skill-icons/godot.svg":"6FcW0","../assets/skill-icons/graphql.svg":"bWjwR","../assets/skill-icons/tailwind.svg":"1gQ7z","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gSR7m":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$3fc2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3fc2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Cluster", ()=>Cluster);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Cluster({ name, link, description, imgPrimary, imgSecondary, imgTertiary, skills, repoLink }) {
+    const commonImageAttributes = "rounded-lg border-4 border-gray-700 shadow-2xl duration-500";
+    const commonIconAttributes = "w-10 h-10 group-hover:opacity-100 duration-500 md:opacity-70";
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "md:w-[500px] md:h-[500px] flex flex-col items-center justify-center group hover:scale-105 ease-in-out duration-500 mb-10",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                className: "relative w-[150px] h-[150px] md:w-[300px] md:h-[300px] mb-5",
+                href: link,
+                target: "_blank",
+                rel: "noopener noreferrer",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: imgPrimary,
+                        alt: "project image primary",
+                        className: `absolute w-[150px] h-[150px] md:w-[300px] md:h-[300px] ${commonImageAttributes}`
+                    }, void 0, false, {
+                        fileName: "src/components/Cluster.jsx",
+                        lineNumber: 25,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: imgSecondary,
+                        alt: "project image secondary",
+                        className: `absolute z-10 w-[100px] h-[100px] md:w-[175px] md:h-[175px] left-[-65px] bottom-[20px] md:group-hover:translate-y-[-65px] ${commonImageAttributes}`
+                    }, void 0, false, {
+                        fileName: "src/components/Cluster.jsx",
+                        lineNumber: 30,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: imgTertiary,
+                        alt: "project image secondary",
+                        className: `absolute z-20 w-[65px] h-[65px] md:w-[100px] md:h-[100px] right-[-45px] top-[40px] md:group-hover:translate-y-20 ${commonImageAttributes}`
+                    }, void 0, false, {
+                        fileName: "src/components/Cluster.jsx",
+                        lineNumber: 35,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Cluster.jsx",
+                lineNumber: 19,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flex flex-col items-center",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "text-[20px] md:opacity-70 md:text-[30px] font-bold md:group-hover:opacity-100 duration-500",
+                        children: name
+                    }, void 0, false, {
+                        fileName: "src/components/Cluster.jsx",
+                        lineNumber: 42,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "flex gap-2 duration-500",
+                        children: skills.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: `${commonIconAttributes}`,
+                                src: skill,
+                                alt: `skill icon ${index}`
+                            }, index, false, {
+                                fileName: "src/components/Cluster.jsx",
+                                lineNumber: 47,
+                                columnNumber: 13
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "src/components/Cluster.jsx",
+                        lineNumber: 45,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        className: "text-gray-500 text-sm pt-1 hover:text-pink-700 font-semibold duration-300",
+                        href: repoLink,
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        children: `${repoLink ? "View on GitHub" : ""}`
+                    }, void 0, false, {
+                        fileName: "src/components/Cluster.jsx",
+                        lineNumber: 55,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Cluster.jsx",
+                lineNumber: 41,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Cluster.jsx",
+        lineNumber: 18,
+        columnNumber: 5
+    }, this);
+}
+_c = Cluster;
+var _c;
+$RefreshReg$(_c, "Cluster");
+
+  $parcel$ReactRefreshHelpers$3fc2.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports,__globalThis) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, '__esModule', {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === 'default' || key === '__esModule' || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"km3Ru":[function(require,module,exports,__globalThis) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 var { version } = require("630b62916b1ae0e7");
@@ -18702,328 +19023,7 @@ function registerExportsForReactRefresh(module1) {
 },{"7422ead32dcc1e6b":"786KC","630b62916b1ae0e7":"4SQxb"}],"4SQxb":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"react-refresh\",\"description\":\"React is a JavaScript library for building user interfaces.\",\"keywords\":[\"react\"],\"version\":\"0.14.2\",\"homepage\":\"https://reactjs.org/\",\"bugs\":\"https://github.com/facebook/react/issues\",\"license\":\"MIT\",\"files\":[\"LICENSE\",\"README.md\",\"babel.js\",\"runtime.js\",\"cjs/\",\"umd/\"],\"main\":\"runtime.js\",\"exports\":{\".\":\"./runtime.js\",\"./runtime\":\"./runtime.js\",\"./babel\":\"./babel.js\",\"./package.json\":\"./package.json\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/facebook/react.git\",\"directory\":\"packages/react\"},\"engines\":{\"node\":\">=0.10.0\"},\"devDependencies\":{\"react-16-8\":\"npm:react@16.8.0\",\"react-dom-16-8\":\"npm:react-dom@16.8.0\",\"scheduler-0-13\":\"npm:scheduler@0.13.0\"}}");
 
-},{}],"bCxdS":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$475a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$475a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "App", ()=>App);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _clusters = require("./Clusters");
-var _header = require("./Header");
-var _intro = require("./Intro");
-function App() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "flex flex-col items-center mx-auto max-w-[1440px] h-fit bg-gray-100",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _header.Header), {}, void 0, false, {
-                fileName: "src/components/App.jsx",
-                lineNumber: 8,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _intro.Intro), {}, void 0, false, {
-                fileName: "src/components/App.jsx",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _clusters.Clusters), {}, void 0, false, {
-                fileName: "src/components/App.jsx",
-                lineNumber: 10,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/App.jsx",
-        lineNumber: 7,
-        columnNumber: 5
-    }, this);
-}
-_c = App;
-var _c;
-$RefreshReg$(_c, "App");
-
-  $parcel$ReactRefreshHelpers$475a.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Clusters":"7EA1y","./Header":"knC38","./Intro":"bAzHm"}],"gkKU3":[function(require,module,exports,__globalThis) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, '__esModule', {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === 'default' || key === '__esModule' || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"7EA1y":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$6cf1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$6cf1.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Clusters", ()=>Clusters);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _cluster = require("./Cluster");
-var _ne1Png = require("../assets/ne_1.png");
-var _ne1PngDefault = parcelHelpers.interopDefault(_ne1Png);
-var _ne2Png = require("../assets/ne_2.png");
-var _ne2PngDefault = parcelHelpers.interopDefault(_ne2Png);
-var _ne3Png = require("../assets/ne_3.png");
-var _ne3PngDefault = parcelHelpers.interopDefault(_ne3Png);
-var _bb1Png = require("../assets/bb_1.png");
-var _bb1PngDefault = parcelHelpers.interopDefault(_bb1Png);
-var _bb2Png = require("../assets/bb_2.png");
-var _bb2PngDefault = parcelHelpers.interopDefault(_bb2Png);
-var _bb3Png = require("../assets/bb_3.png");
-var _bb3PngDefault = parcelHelpers.interopDefault(_bb3Png);
-var _dc1Png = require("../assets/dc_1.png");
-var _dc1PngDefault = parcelHelpers.interopDefault(_dc1Png);
-var _dc2Png = require("../assets/dc_2.png");
-var _dc2PngDefault = parcelHelpers.interopDefault(_dc2Png);
-var _dc3Png = require("../assets/dc_3.png");
-var _dc3PngDefault = parcelHelpers.interopDefault(_dc3Png);
-var _jsSvg = require("../assets/skill-icons/js.svg");
-var _jsSvgDefault = parcelHelpers.interopDefault(_jsSvg);
-var _reactSvg = require("../assets/skill-icons/react.svg");
-var _reactSvgDefault = parcelHelpers.interopDefault(_reactSvg);
-var _tsSvg = require("../assets/skill-icons/ts.svg");
-var _tsSvgDefault = parcelHelpers.interopDefault(_tsSvg);
-var _mongoSvg = require("../assets/skill-icons/mongo.svg");
-var _mongoSvgDefault = parcelHelpers.interopDefault(_mongoSvg);
-var _expressSvg = require("../assets/skill-icons/express.svg");
-var _expressSvgDefault = parcelHelpers.interopDefault(_expressSvg);
-var _webpackSvg = require("../assets/skill-icons/webpack.svg");
-var _webpackSvgDefault = parcelHelpers.interopDefault(_webpackSvg);
-var _csSvg = require("../assets/skill-icons/cs.svg");
-var _csSvgDefault = parcelHelpers.interopDefault(_csSvg);
-var _gcpSvg = require("../assets/skill-icons/gcp.svg");
-var _gcpSvgDefault = parcelHelpers.interopDefault(_gcpSvg);
-var _godotSvg = require("../assets/skill-icons/godot.svg");
-var _godotSvgDefault = parcelHelpers.interopDefault(_godotSvg);
-var _graphqlSvg = require("../assets/skill-icons/graphql.svg");
-var _graphqlSvgDefault = parcelHelpers.interopDefault(_graphqlSvg);
-var _tailwindSvg = require("../assets/skill-icons/tailwind.svg");
-var _tailwindSvgDefault = parcelHelpers.interopDefault(_tailwindSvg);
-function Clusters() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cluster.Cluster), {
-                name: "Drops",
-                description: "Drops is an app created with React that allows user with diabetes to track various health metrics and set reminders for medication.",
-                imgPrimary: (0, _dc1PngDefault.default),
-                imgSecondary: (0, _dc2PngDefault.default),
-                imgTertiary: (0, _dc3PngDefault.default),
-                link: "https://github.com/jahorwitz/drops",
-                skills: [
-                    (0, _reactSvgDefault.default),
-                    (0, _tsSvgDefault.default),
-                    (0, _tailwindSvgDefault.default),
-                    (0, _graphqlSvgDefault.default)
-                ]
-            }, void 0, false, {
-                fileName: "src/components/Clusters.jsx",
-                lineNumber: 26,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cluster.Cluster), {
-                name: "NewsExplorer",
-                description: "A project created with React and Vite that allows visitors to search for news articles and save them to their personal profile.",
-                imgPrimary: (0, _ne1PngDefault.default),
-                imgSecondary: (0, _ne2PngDefault.default),
-                imgTertiary: (0, _ne3PngDefault.default),
-                link: "https://yournewsexplorer.crabdance.com/",
-                skills: [
-                    (0, _reactSvgDefault.default),
-                    (0, _jsSvgDefault.default),
-                    (0, _expressSvgDefault.default),
-                    (0, _mongoSvgDefault.default)
-                ],
-                repoLink: "https://github.com/Aivaxela/news_explorer_frontend"
-            }, void 0, false, {
-                fileName: "src/components/Clusters.jsx",
-                lineNumber: 35,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cluster.Cluster), {
-                name: "Beach Bandits",
-                description: "Beach Bandits is a tool that allows you to create an optimal route between selected beaches in Florida. This project was created in 2 weeks for the June 2024 TripleTen Code Jam.",
-                imgPrimary: (0, _bb1PngDefault.default),
-                imgSecondary: (0, _bb2PngDefault.default),
-                imgTertiary: (0, _bb3PngDefault.default),
-                link: "https://aivaxela.github.io/beach-bandits/",
-                skills: [
-                    (0, _jsSvgDefault.default),
-                    (0, _webpackSvgDefault.default)
-                ],
-                repoLink: "https://github.com/Aivaxela/beach-bandits"
-            }, void 0, false, {
-                fileName: "src/components/Clusters.jsx",
-                lineNumber: 45,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Clusters.jsx",
-        lineNumber: 25,
-        columnNumber: 5
-    }, this);
-}
-_c = Clusters;
-var _c;
-$RefreshReg$(_c, "Clusters");
-
-  $parcel$ReactRefreshHelpers$6cf1.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","./Cluster":"gSR7m","../assets/ne_1.png":"dR0UC","../assets/ne_2.png":"kbLK0","../assets/ne_3.png":"3bvQA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/bb_1.png":"eWOqG","../assets/bb_2.png":"7H66c","../assets/bb_3.png":"bDi1D","../assets/dc_1.png":"1DBBW","../assets/dc_2.png":"61mOh","../assets/dc_3.png":"8Ji2n","../assets/skill-icons/js.svg":"58JVJ","../assets/skill-icons/react.svg":"cIkZJ","../assets/skill-icons/ts.svg":"6uLk5","../assets/skill-icons/mongo.svg":"cpuly","../assets/skill-icons/express.svg":"7svLS","../assets/skill-icons/webpack.svg":"6cSya","../assets/skill-icons/cs.svg":"kBGJj","../assets/skill-icons/gcp.svg":"7Ebpr","../assets/skill-icons/godot.svg":"6FcW0","../assets/skill-icons/graphql.svg":"bWjwR","../assets/skill-icons/tailwind.svg":"1gQ7z"}],"gSR7m":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$3fc2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$3fc2.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Cluster", ()=>Cluster);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Cluster({ name, link, description, imgPrimary, imgSecondary, imgTertiary, skills, repoLink }) {
-    const commonImageAttributes = "rounded-lg border-4 border-gray-700 shadow-2xl duration-500";
-    const commonIconAttributes = "w-10 h-10 group-hover:opacity-100 duration-500 md:opacity-70";
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "md:w-[500px] md:h-[500px] flex flex-col items-center justify-center group hover:scale-105 ease-in-out duration-500 mb-10",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                className: "relative w-[150px] h-[150px] md:w-[300px] md:h-[300px] mb-5",
-                href: link,
-                target: "_blank",
-                rel: "noopener noreferrer",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: imgPrimary,
-                        alt: "project image primary",
-                        className: `absolute w-[150px] h-[150px] md:w-[300px] md:h-[300px] ${commonImageAttributes}`
-                    }, void 0, false, {
-                        fileName: "src/components/Cluster.jsx",
-                        lineNumber: 25,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: imgSecondary,
-                        alt: "project image secondary",
-                        className: `absolute z-10 w-[100px] h-[100px] md:w-[175px] md:h-[175px] left-[-65px] bottom-[20px] md:group-hover:translate-y-[-65px] ${commonImageAttributes}`
-                    }, void 0, false, {
-                        fileName: "src/components/Cluster.jsx",
-                        lineNumber: 30,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: imgTertiary,
-                        alt: "project image secondary",
-                        className: `absolute z-20 w-[65px] h-[65px] md:w-[100px] md:h-[100px] right-[-45px] top-[40px] md:group-hover:translate-y-20 ${commonImageAttributes}`
-                    }, void 0, false, {
-                        fileName: "src/components/Cluster.jsx",
-                        lineNumber: 35,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Cluster.jsx",
-                lineNumber: 19,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex flex-col items-center",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        className: "text-[20px] md:opacity-70 md:text-[30px] font-bold md:group-hover:opacity-100 duration-500",
-                        children: name
-                    }, void 0, false, {
-                        fileName: "src/components/Cluster.jsx",
-                        lineNumber: 42,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "flex gap-2 duration-500",
-                        children: skills.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: `${commonIconAttributes}`,
-                                src: skill,
-                                alt: `skill icon ${index}`
-                            }, index, false, {
-                                fileName: "src/components/Cluster.jsx",
-                                lineNumber: 47,
-                                columnNumber: 13
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "src/components/Cluster.jsx",
-                        lineNumber: 45,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        className: "text-gray-500 text-sm pt-1 hover:text-pink-700 font-semibold duration-300",
-                        href: repoLink,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: `${repoLink ? "View on GitHub" : ""}`
-                    }, void 0, false, {
-                        fileName: "src/components/Cluster.jsx",
-                        lineNumber: 55,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Cluster.jsx",
-                lineNumber: 41,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Cluster.jsx",
-        lineNumber: 18,
-        columnNumber: 5
-    }, this);
-}
-_c = Cluster;
-var _c;
-$RefreshReg$(_c, "Cluster");
-
-  $parcel$ReactRefreshHelpers$3fc2.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dR0UC":[function(require,module,exports,__globalThis) {
+},{}],"dR0UC":[function(require,module,exports,__globalThis) {
 module.exports = require("4c298e1a1be91779").getBundleURL('bLxZJ') + "ne_1.639b2911.png" + "?" + Date.now();
 
 },{"4c298e1a1be91779":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
@@ -19149,7 +19149,7 @@ function Header() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            className: "text-xl font-semibold text-gray-500",
+                            className: "text-xl font-semibold text-gray-600",
                             children: "IoT Specialist | Software Engineer | Hobbyist Game Developer | Continuous Learner"
                         }, void 0, false, {
                             fileName: "src/components/Header.jsx",
@@ -19192,7 +19192,7 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/me-removebg.png":"2hncy"}],"2hncy":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../assets/me-removebg.png":"2hncy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2hncy":[function(require,module,exports,__globalThis) {
 module.exports = require("13b8687115698d8e").getBundleURL('bLxZJ') + "me-removebg.f9f7a1d3.png" + "?" + Date.now();
 
 },{"13b8687115698d8e":"lgJ39"}],"bAzHm":[function(require,module,exports,__globalThis) {
@@ -19242,6 +19242,6 @@ $RefreshReg$(_c, "Intro");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","9mu7C","8lqZg"], "8lqZg", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"irmnC":[function() {},{}]},["aQL8O","9mu7C","8lqZg"], "8lqZg", "parcelRequire94c2")
 
 //# sourceMappingURL=index.975ef6c8.js.map
