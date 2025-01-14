@@ -19135,13 +19135,13 @@ function Header() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
         className: "flex flex-col items-center bg-gradient-to-b p-10 from-teal-200 to-teal-100 w-full",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex justify-between w-full",
+            className: "flex flex-col gap-3 md:flex-row md:gap-0 justify-between w-full",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "flex flex-col justify-center text-center ml-5",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: "text-[84px] font-bold",
+                            className: "text-[48px] md:text-[84px] font-bold",
                             children: "Riley Marcum"
                         }, void 0, false, {
                             fileName: "src/components/Header.jsx",
@@ -19149,7 +19149,7 @@ function Header() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            className: "text-xl font-semibold text-gray-600",
+                            className: "text-md md:text-xl font-semibold text-gray-500",
                             children: "IoT Specialist | Software Engineer | Hobbyist Game Developer | Continuous Learner"
                         }, void 0, false, {
                             fileName: "src/components/Header.jsx",
@@ -19163,7 +19163,7 @@ function Header() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "w-[300px] h-[300px] rounded-full bg-teal-100 p-2 shadow-2xl",
+                    className: "w-[200px] h-[200px] md:w-[300px] md:h-[300px] self-center rounded-full bg-teal-100 p-2 shadow-2xl",
                     src: (0, _meRemovebgPngDefault.default),
                     alt: "portrait photo of Riley"
                 }, void 0, false, {
@@ -19211,7 +19211,7 @@ function Intro() {
         className: "flex flex-col text-center p-5 my-5 w-10/12 bg-gradient-to-b from-blue-200 to-blue-100 rounded-3xl",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "text-lg",
+                className: "text-md md:text-lg",
                 children: "Hello, my name is Riley Marcum. Thank you for spending the time to take a look at my projects!"
             }, void 0, false, {
                 fileName: "src/components/Intro.jsx",
