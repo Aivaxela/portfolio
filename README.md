@@ -2,4 +2,4 @@
 
 This project showcases all the cool things I've built in the world of software development.
 
-Created with React, Tailwind and Parcel.
+Developed with React, styled using Tailwind CSS, bundled with Parcel.
