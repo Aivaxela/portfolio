@@ -17,7 +17,7 @@ export function Cluster({
   return (
     <div className="md:w-[500px] md:h-[500px] flex flex-col items-center justify-center group hover:scale-105 ease-in-out duration-500 mb-10">
       <a
-        className="relative w-[150px] h-[150px] md:w-[300px] md:h-[300px] mb-5"
+        className="relative w-[100px] h-[100px] md:w-[200px] md:h-[200px] mb-5"
         href={link}
         target="_blank"
         rel="noopener noreferrer"
@@ -25,17 +25,17 @@ export function Cluster({
         <img
           src={imgPrimary}
           alt="project image primary"
-          className={`absolute w-[150px] h-[150px] md:w-[300px] md:h-[300px] ${commonImageAttributes}`}
+          className={`absolute w-[100px] h-[100px] md:w-[200px] md:h-[200px] ${commonImageAttributes}`}
         />
         <img
           src={imgSecondary}
           alt="project image secondary"
-          className={`absolute z-10 w-[100px] h-[100px] md:w-[175px] md:h-[175px] left-[-65px] bottom-[20px] md:group-hover:translate-y-[-65px] ${commonImageAttributes}`}
+          className={`absolute z-10 w-[75px] h-[75px] md:w-[150px] md:h-[150px] left-[-65px] bottom-[20px] md:group-hover:translate-y-[-65px] ${commonImageAttributes}`}
         />
         <img
           src={imgTertiary}
           alt="project image secondary"
-          className={`absolute z-20 w-[65px] h-[65px] md:w-[100px] md:h-[100px] right-[-45px] top-[40px] md:group-hover:translate-y-20 ${commonImageAttributes}`}
+          className={`absolute z-20 w-[40px] h-[40px] md:w-[75px] md:h-[75px] right-[-45px] top-[40px] md:group-hover:translate-y-20 ${commonImageAttributes}`}
         />
       </a>
       <div className="flex flex-col items-center">
