@@ -22,36 +22,41 @@ import tailwind from "../assets/skill-icons/tailwind.svg";
 
 export function Clusters() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
-      <Cluster
-        name="Drops"
-        description="Drops is an app created with React that allows user with diabetes to track various health metrics and set reminders for medication."
-        imgPrimary={dc1}
-        imgSecondary={dc2}
-        imgTertiary={dc3}
-        link={"https://github.com/jahorwitz/drops"}
-        skills={[react, ts, tailwind, graphql]}
-      ></Cluster>
-      <Cluster
-        name="NewsExplorer"
-        description="A project created with React and Vite that allows visitors to search for news articles and save them to their personal profile."
-        imgPrimary={ne1}
-        imgSecondary={ne2}
-        imgTertiary={ne3}
-        link={"https://yournewsexplorer.crabdance.com/"}
-        skills={[react, js, express, mongo]}
-        repoLink={"https://github.com/Aivaxela/news_explorer_frontend"}
-      ></Cluster>
-      <Cluster
-        name="Beach Bandits"
-        description="Beach Bandits is a tool that allows you to create an optimal route between selected beaches in Florida. This project was created in 2 weeks for the June 2024 TripleTen Code Jam."
-        imgPrimary={bb1}
-        imgSecondary={bb2}
-        imgTertiary={bb3}
-        link={"https://aivaxela.github.io/beach-bandits/"}
-        skills={[js, webpack]}
-        repoLink={"https://github.com/Aivaxela/beach-bandits"}
-      ></Cluster>
+    <div className="p-4 bg-teal-100 rounded-2xl">
+      <h3 className="text-[36px] border-b-8 border-teal-400 pb-5 mb-8 font-bold text-center text-gray-700">
+        Projects
+      </h3>
+      <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
+        <Cluster
+          name="Drops"
+          description="Drops is an app created with React that allows user with diabetes to track various health metrics and set reminders for medication."
+          imgPrimary={dc1}
+          imgSecondary={dc2}
+          imgTertiary={dc3}
+          link={"https://github.com/jahorwitz/drops"}
+          skills={[react, ts, tailwind, graphql]}
+        ></Cluster>
+        <Cluster
+          name="NewsExplorer"
+          description="A project created with React and Vite that allows visitors to search for news articles and save them to their personal profile."
+          imgPrimary={ne1}
+          imgSecondary={ne2}
+          imgTertiary={ne3}
+          link={"https://yournewsexplorer.crabdance.com/"}
+          skills={[react, js, express, mongo]}
+          repoLink={"https://github.com/Aivaxela/news_explorer_frontend"}
+        ></Cluster>
+        <Cluster
+          name="Beach Bandits"
+          description="Beach Bandits is a tool that allows you to create an optimal route between selected beaches in Florida. This project was created in 2 weeks for the June 2024 TripleTen Code Jam."
+          imgPrimary={bb1}
+          imgSecondary={bb2}
+          imgTertiary={bb3}
+          link={"https://aivaxela.github.io/beach-bandits/"}
+          skills={[js, webpack]}
+          repoLink={"https://github.com/Aivaxela/beach-bandits"}
+        ></Cluster>
+      </div>
     </div>
   );
 }
