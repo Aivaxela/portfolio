@@ -39,9 +39,9 @@ export function Cluster({
         />
       </a>
       <div className="flex flex-col items-center">
-        <h3 className="text-[20px] md:opacity-70 md:text-[30px] font-bold md:group-hover:opacity-100 duration-500">
+        <h4 className="text-[20px] md:opacity-70 md:text-[30px] font-bold md:group-hover:opacity-100 duration-500">
           {name}
-        </h3>
+        </h4>
         <div className="flex gap-2 duration-500">
           {skills.map((skill, index) => (
             <img
