@@ -4,7 +4,7 @@ import github from "../assets/github.svg";
 
 export function Header() {
   return (
-    <header className="flex flex-col max-w-[1440px] items-center bg-gradient-to-b p-10 rounded-3xl mt-4 w-full backdrop-blur-[6px] bg-white/10">
+    <header className="flex flex-col max-w-[1440px] items-center bg-gradient-to-b p-10 rounded-3xl mb-4 w-full backdrop-blur-[6px] bg-white/10">
       <div className="flex flex-col gap-3 md:flex-row md:gap-0 justify-between w-full">
         <div className="flex flex-col justify-center items-center text-center ml-5">
           <h1 className="text-[48px] md:text-[84px] text-amber-400 font-bold">
@@ -24,7 +24,7 @@ export function Header() {
           </div>
         </div>
         <img
-          className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] self-center rounded-full p-2 shadow-2xl bg-amber-300/20"
+          className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] self-center rounded-full p-2 shadow-2xl bg-white/10"
           src={me}
           alt="portrait photo of Riley"
         />

@@ -39,7 +39,7 @@ export function Cluster({
         />
       </a>
       <div className="flex flex-col items-center">
-        <h4 className="text-[20px] md:opacity-70 md:text-[30px] font-bold md:group-hover:opacity-100 duration-500">
+        <h4 className="text-[20px] md:text-[30px] font-bold text-amber-400">
           {name}
         </h4>
         <div className="flex gap-2 duration-500">
@@ -53,7 +53,7 @@ export function Cluster({
           ))}
         </div>
         <a
-          className="text-gray-500 text-sm pt-1 hover:text-pink-700 font-semibold duration-300"
+          className="text-slate-200 text-sm pt-1 hover:text-amber-400 font-semibold duration-300"
           href={repoLink}
           target="_blank"
           rel="noopener noreferrer"
