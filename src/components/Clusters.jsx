@@ -22,8 +22,8 @@ import tailwind from "../assets/skill-icons/tailwind.svg";
 
 export function Clusters() {
   return (
-    <div className="p-4 bg-teal-100 rounded-2xl">
-      <h3 className="text-[36px] border-b-8 border-teal-400 pb-5 mb-8 font-bold text-center text-gray-700">
+    <div className="p-4 bg-orange-100 rounded-2xl">
+      <h3 className="text-[36px] border-b-8 border-orange-400 pb-5 mb-8 font-bold text-center text-gray-700">
         Projects
       </h3>
       <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
