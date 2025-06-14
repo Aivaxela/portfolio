@@ -12,7 +12,7 @@ export function Cluster({
     "rounded-lg border-4 border-gray-700 shadow-2xl duration-500";
 
   const commonIconAttributes =
-    "w-10 h-10 group-hover:opacity-100 duration-500 md:opacity-70";
+    "w-10 h-10 group-hover:opacity-100 duration-500 md:opacity-70 ";
 
   return (
     <div className="md:w-[500px] md:h-[500px] flex flex-col items-center justify-center group hover:scale-105 ease-in-out duration-500 mb-10">
